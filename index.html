@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="node_modules\bootstrap-icons\font\bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark "data-bs-theme="dark">
+        <div class="container-fluid police">
+          <img class="navbar-brand logo" src="/images/logo_zoo.png" alt="Logo du zoo"/>
+          <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="/">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="/habitats">Les habitats</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="/services">Nos services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" href="/contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" data-show="disconnected" href="/signin">Connexion</a>
+              </li>
+              <li class="nav-item">
+                <button class="nav-link text-secondary" data-show="connected" id="signout-btn">Déconnexion</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-page"></main>
+
+    <footer class="bg-dark text-secondary foot">
+        <div class="row text-center">
+            <div class="col-12 col-lg-4">
+                <h5 class="text-secondary">Nos horaires</h5>
+                <p>Ouvert tous les jours de l'année <br/>
+                    9h30 - 19h30 Non-stop <br/>
+                </p>
+            </div>
+            <div class="col-6  col-lg-4">
+                <p>Zoo Arcadia <br/>
+                    3250, Route de Broceliande <br/>
+                    35200 Brest <br/>
+                </p>
+            </div>
+            <div class="col-6  col-lg-4">
+                <p>zoo.arcadia@gmail.com<br/>
+                  01.22.33.44.55 <br/>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+<script type="module" src="Router/Router.js"></script>
+<script src="js/script.js"></script>
+<script src="node_modules\bootstrap\dist\js\bootstrap.bundle.min.js/"></script> 
+</body>
+</html>
