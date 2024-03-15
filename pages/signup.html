@@ -1,0 +1,55 @@
+<div class="img_fond_zoo text-center text-white">
+    <div class="img_fond_zoo_content">
+        <h1>Inscription</h1>
+    </div>
+</div>
+
+<div class="container">
+    <form >
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+              <label for="InputNom" class="form-label">Nom :</label>
+              <input type="text" class="form-control" id="InputNom" placeholder="Votre nom...">
+              <div class="invalid-feedback text-dark">Le nom est requis</div>
+            </div>
+          </div>
+        <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+              <label for="InputPrenom" class="form-label">Prénom:</label>
+              <input type="text" class="form-control" id="InputPrenom" placeholder="Votre prénom...">
+              <div class="invalid-feedback text-dark">Le prénom est requis</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 mb-3">
+            <label for="InputEmail" class="form-label">Mail:</label>
+            <input type="email" class="form-control" id="InputEmail" placeholder="test@mail.fr">
+            <div class="invalid-feedback text-dark">Le mail n'est pas valide</div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 mb-3">
+            <label for="InputPassword" class="form-label">Mot de passe:</label>
+            <input type="password" class="form-control" id="InputPassword">
+            <div class="invalid-feedback">
+              Le mot de passe doit contenir 8 caractères dont au moins 1 majuscule 1 miniscule 1 chiffre et un caractère special
+            </div>
+            <div class="valid-feedback text-dark">Le mot de passe est assez robuste</div>
+          </div>
+        </div>
+          <div class="row justify-content-center">
+            <div class="col-4 mb-3">
+              <label for="ValidateInputPassword" class="form-label">Confirmez votre mot de passe:</label>
+              <input type="password" class="form-control" id="ValidateInputPassword">
+              <div class="invalid-feedback">
+                La confirmation n'est pas identique au mot de passe
+              </div>
+            </div>
+          <div class="text-center lien">
+              <button type="button" class="btn btn-primary text-dark" id="btn-validation-inscription">Inscription</button>
+          </div>  
+        </div>
+      </form>
+</div>
+
+

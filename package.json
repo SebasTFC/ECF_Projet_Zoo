@@ -4,6 +4,8 @@
   "description": "Ce site conçu pour mon projet de Graduate developper",
   "main": "index.js",
   "scripts": {
+    "type": "module",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

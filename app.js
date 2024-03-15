@@ -14,10 +14,10 @@ app.use(bodyParser.json())
 //My sql
 const pool =mysql.createPool({
     connectionLimit: 10,
-    host:'localhost',
-    user:'root',
-    password:'',
-    database:'bdd'
+    host: '127.0.0.1',
+    user: 'root',
+    password: '',
+    database: 'bdd'
 })
 
 // Get all services
